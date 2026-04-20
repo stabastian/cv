@@ -57,7 +57,7 @@
       "projects": [
         {
           "name": "EMDX",
-          "time": "2021 – 2023",
+          "time": "",
           "summary": "Perpetual-derivatives DEX on Avalanche C-Chain. CTO and architect from day one.",
           "bullets": [
             "End-to-end system design: Express API, WebSocket server for real-time data, Redis for shared memory and pub/sub channels, Vue frontend.",
