@@ -1,726 +1,145 @@
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]>
-<html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
+<html lang="es">
 
 <head>
-    <title>Sebastián Ponti Developer</title>
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="shortcut icon" href="favicon.ico">-->
-    <link
-        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-6.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title data-i18n="meta.title">Sebastián Ponti — Senior Full Stack Developer</title>
+    <meta name="description" data-i18n-attr="content:meta.description" content="CV de Sebastián Ponti, Senior Full Stack Developer.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Sebastián Ponti</h1>
-                <h3 class="tagline">Full Stack Developer</h3>
+    <div class="container">
+
+        <nav class="lang-toggle" aria-label="Language toggle">
+            <div class="lang-toggle__inner">
+                <span class="lang-toggle__bracket">[</span>
+                <button class="lang-toggle__btn" data-lang="es" aria-pressed="true">ES</button>
+                <span class="lang-toggle__sep">|</span>
+                <button class="lang-toggle__btn" data-lang="en" aria-pressed="false">EN</button>
+                <span class="lang-toggle__bracket">]</span>
             </div>
-            <!--//profile-container-->
+        </nav>
 
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <!-- <li class="website">
-                        <i class="fa fa-globe"></i>
-                        <a href="http://sebastianponti.com.ar/" target="_blank">sebastianponti.com.ar</a>
-                    </li> -->
-                    <li class="linkedin">
-                        <i class="fa fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/sebasti%C3%A1n-ponti-4a67a235/"
-                            target="_blank">linkedin.com/sponti</a>
-                    </li>
-                    <li class="github">
-                        <i class="fa fa-github"></i>
-                        <a href="https://github.com/sebaponti" target="_blank">github.com/sebaponti</a>
-                    </li>
-                </ul>
+        <header class="header">
+            <div class="header__prompt" data-i18n="header.prompt">~/cv $ whoami</div>
+            <h1 class="header__name" data-i18n="header.name">Sebastián Ponti</h1>
+            <p class="header__role" data-i18n="header.role">Senior Full Stack Developer</p>
+            <div class="header__meta">
+                <span class="header__meta-item">
+                    <span data-i18n="header.location">Patagonia Argentina — Remoto</span>
+                </span>
+                <span class="header__meta-item">
+                    <span class="label" data-i18n="header.linkedinLabel">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/sebasti%C3%A1n-p-4a67a235/" target="_blank" rel="noopener">linkedin.com/in/sebastián-p</a>
+                </span>
+                <span class="header__meta-item">
+                    <span class="label" data-i18n="header.githubLabel">GitHub</span>
+                    <a href="https://github.com/stabastian" target="_blank" rel="noopener">github.com/stabastian</a>
+                </span>
             </div>
-            <!--//contact-container-->
+        </header>
 
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">Faculty of Informatics</h4>
-                    <h5 class="meta">National University at <br /> La Plata</h5>
-                    <div class="time">2007 - Present</div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <h4 class="degree">E.P.E.T. Nº12</h4>
-                    <h5 class="meta">Technical High School at <br /> San Martín de los Andes</h5>
-                    <div class="time">2000 - 2005</div>
-                </div>
-                <!--//item-->
-            </div>
-            <!--//education-container-->
+        <main>
 
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Spanish <br /><span class="lang-desc">(Native)</span></li>
-                    <li>English <br /><span class="lang-desc">(Professional, level medium)</span></li>
-                </ul>
-            </div>
-
-        </div>
-        <!--//sidebar-wrapper-->
-
-        <div class="main-wrapper">
-
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-                <div class="summary">
-                    <p class="text-justify">Fullstack developer with 9 years of experience in various positions and
-                        projects. Knowledge of databases, Backend and Frontend programming, Software Architecture,
-                        Scalability, Performance and High Availability. I consider myself a very methodical developer
-                        and loyal to the programming standards proposed by each language. Great enthusiastic for
-                        constantly acquiring knowledge in order to provide solutions creative and efficient to the
-                        challenges proposed by the clietes.
-                    </p>
-                </div>
-                <!--//summary-->
+            <section class="section summary">
+                <h2 class="section__title" data-i18n="sections.summary">perfil</h2>
+                <p class="summary__body" data-i18n="summary.body"></p>
             </section>
-            <!--//section-->
 
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Job Experiences</h2>
+            <section class="section experience">
+                <h2 class="section__title" data-i18n="sections.experience">experiencia</h2>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Developer</h3>
-                            <div class="time">2018 - Present</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">at Cryptologic, Rosario</div>
+                <article class="job">
+                    <div class="job__head">
+                        <h3 class="job__title">
+                            <span class="job__company" data-i18n="experience.digitaltape.company">Digitaltape</span>
+                            <span class="job__sep"> · </span>
+                            <span data-i18n="experience.digitaltape.role">Senior Full Stack / DevOps</span>
+                        </h3>
+                        <span class="job__time" data-i18n="experience.digitaltape.time">2025 – presente</span>
                     </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">
-                            <a href="https://cryptologic.io/" title="Cryptologic" target="_blank">Cryptologic</a>
-                            provides consulting and project development services addressed to cryptographic
-                            and blockchain technology. We focus on financial and economic tools, legal vehicles design
-                            (Smart Contracts and DAO'S) and solutions for social and financial inclusion achieving
-                            through this way secures, transparents, auditables, and irreversibles actions.
-                        </p>
-                        <h5>Projects</h5>
-                        <p class="text-justify">
-                            <a href="https://bitsign.io/" title="Bitsign" target="_blank"><u>Bitsign</u></a>: BaaS (Blockchain as a Service) is a service which acts as an
-                            abstraction layer and lets you interact with different types of blockchains and run
-                            descentralized apps (DApps) like Smart Contracts. I've worked as <mark>DevOp</mark>, doing the migration of the Bitsign blockchain to <mark>Rancher</mark>.
-                        </p>
-                        <p class="text-justify">
-                            <a href="https://www.sentinel-chain.org/" title="Sentien Chain" target="_blank"><u>Sentinel Chain</u></a>: Is a B2B marketplace specifically designed to provide
-                            affordable and secure financial services to the unbanked. In this project I've worked as Blockchain developer, designing <mark>smart contracts</mark>, token assets (<mark>ERC20</mark> and <mark>ERC721</mark>) <mark>oracles</mark>, <mark>dapps</mark> and <mark>cross-chain communication</mark> between Sentinel chain and Ethereum mainnet. Also I've worked with Maxi (InfoCorp CTO) in the creation of Sentinel Chain blockchain using <mark>Parity</mark> and <mark>PoA</mark> consensure. To deploy the Sentinel Chain testnet we have used <mark>Docker</mark> and <mark>Rancher</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
+                    <div class="job__meta" data-i18n="experience.digitaltape.location">Remoto</div>
+                    <ul class="job__bullets" data-i18n-list="experience.digitaltape.bullets"></ul>
+                </article>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Developer</h3>
-                            <div class="time">2014 - 2018</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">at CeSPI, La Plata</div>
+                <article class="job">
+                    <div class="job__head">
+                        <h3 class="job__title">
+                            <span class="job__company" data-i18n="experience.sherry.company">Sherry</span>
+                            <span class="job__sep"> · </span>
+                            <span data-i18n="experience.sherry.role">Tech Lead & Smart Contract Engineer</span>
+                        </h3>
+                        <span class="job__time" data-i18n="experience.sherry.time">2024 – 2025</span>
                     </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">
-                            CeSPI promote the use and appropriation of Information and Communication Technologies and
-                            the social changes necessary for their use, which contribute to improving the functions of
-                            education, scientific and technological research and university extension developed by the
-                            National University of La Plata; contributing to a socially and environmentally sustainable
-                            society.
-                        </p>
-                        <p class="text-justify">
-                            The area is in charge to maintenance of the current projects, client support,
-                            infrastructure and the
-                            creation of the new applications refered to the University needs and some Third party
-                            clients.
-                        </p>
-                        <p class="text-justify">
-                            We are a strongly united and professional group, dedicated to create
-                            greate integral solutions suitable to the client requirementes.
-                        </p>
-                        <p class="text-justify">
-                            Using methodology like continuous delivery pipeline (testing, build and
-                            release automation), using <mark>Rancher</mark> and <mark>Gitlab-CI</mark>.
-                        </p>
-                        <p class="text-justify">
-                            Recently we are investigating the <mark>Blockchain</mark> technology, we
-                            know the great potential it has, so we started working on it in the following projects:
-                            <ul>
-                                <li>The first is for validating the integrity of images in an transit taxes system.</li>
-                                <li>The secound is for making de tracing history of the maintanence of veicles in
-                                    mecanic inspections, it's called in spanish RTO
-                                    (Obligatory Technical Review). So that different state or public entities can access
-                                    quickly and reliably.
-                                </li>
-                            </ul>
-                        </p>
-                        <p>The technologies used to develop the projects are:</p>
-                        <p><mark>Rails</mark>, <mark>Sinatra</mark>, <mark>Puma</mark>, <mark>Redis</mark>,
-                            <mark>MySql</mark>,
-                            <mark>Postgres</mark>, <mark>Symfony</mark>, <mark>Capistrano</mark>, <mark>Docker</mark>,
-                            <mark>Chef,</mark> <mark>API RESTful,</mark> <mark>Tyk API Gateway,</mark>
-                            <mark>React,</mark> etc.</p>
-                        <p>To see more information about current proyects you can see the oficial web page:
-                            <a href="http://cespi.unlp.edu.ar" title="CeSPI Projects"
-                                target="_blank">cespi.unlp.edu.ar</a>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
+                    <div class="job__meta" data-i18n="experience.sherry.location">Remoto</div>
+                    <ul class="job__bullets" data-i18n-list="experience.sherry.bullets"></ul>
+                </article>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Developer</h3>
-                            <div class="time">2012 - 2014</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">at Latinmanagers, La Plata</div>
+                <article class="job">
+                    <div class="job__head">
+                        <h3 class="job__title">
+                            <span class="job__company" data-i18n="experience.cryptologic.company">Cryptologic</span>
+                            <span class="job__sep"> · </span>
+                            <span data-i18n="experience.cryptologic.role">CTO / Arquitecto / Blockchain Engineer</span>
+                        </h3>
+                        <span class="job__time" data-i18n="experience.cryptologic.time">2018 – 2023</span>
                     </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">Company in which we work for the number one social insurance company of
-                            Ecuador,
-                            <a href="https://www.saludsa.com/" target="_blank" title="SaludSA">SaludSA</a>. The working
-                            group was divided into different sectors such as Marketing Design, Development and CEO. In
-                            this company I've worked as a developer for the following:</p>
-                        <h5>Projects</h5>
-                        <p class="text-justify"><u>SaludSA</u>: Portal of the social insurance company, has an
-                            area of affiliates and
-                            non-affiliates. Developed in <mark>.NET</mark>, <mark>Microsoft Sql Server</mark> database
-                            and served on
-                            <mark>IIS</mark>.
-                        </p>
-                        <p class="text-justify"><u>DockPik</u>: Social network of doctors and shifts, in which
-                            patients could request shifts and
-                            qualify the medical professionals. It had backend for doctors and another for patients and a
-                            public fronend
-                            to view the ratings and availability of shifts for doctors. Developed in
-                            <mark>Symfony</mark>, <mark>MySql Server</mark> database and served on <mark>Apache</mark>.
-                        </p>
-                        <p class="text-justify"><u>Medical Portal</u>: Portal that offers the data of the
-                            doctors affiliated to the social
-                            insurance SaludSA.
-                            It has an administrative backend and a frontend to visualize and reclaim the searches of the
-                            affiliated doctors. Developed in <mark>Symfony</mark>, <mark>MySql Server</mark> database
-                            and served on
-                            <mark>Apache</mark>.
-                        </p>
-                        <p class="text-justify">I also possessed the role of
-                            <mark>Sysadmin</mark>, performing tasks of installation, maintenance of servers of
-                            development and production, deployments, installation administrative and development tools
-                            such
-                            as <mark>Redmine</mark>, <mark>Gitlab</mark>, <mark>PhpMyAdmin</mark>, etcetera.
-                        </p>
-                        <p class="text-justify">Training and use of CRM
-                            <mark>SalesForce</mark>
-                            for administrative management of the DockPik project,
-                            as well as the use of middleware for bidirectional synchronization of the application and
-                            CRM.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
+                    <div class="job__meta" data-i18n="experience.cryptologic.location">Rosario, Argentina</div>
+                    <p class="job__intro" data-i18n="experience.cryptologic.intro"></p>
+                    <div class="job__projects" data-i18n-projects="experience.cryptologic.projects"></div>
+                </article>
 
+                <article class="job">
+                    <div class="job__head">
+                        <h3 class="job__title">
+                            <span class="job__company" data-i18n="experience.cespi.company">CeSPI (UNLP)</span>
+                            <span class="job__sep"> · </span>
+                            <span data-i18n="experience.cespi.role">Developer</span>
+                        </h3>
+                        <span class="job__time" data-i18n="experience.cespi.time">2014 – 2018</span>
+                    </div>
+                    <div class="job__meta" data-i18n="experience.cespi.location">La Plata, Argentina</div>
+                    <ul class="job__bullets" data-i18n-list="experience.cespi.bullets"></ul>
+                </article>
+
+                <article class="job job--compact">
+                    <span class="job__title" data-i18n="experience.earlier.label">Experiencia previa</span>
+                    <span class="job__time" data-i18n="experience.earlier.time">2010 – 2014</span>
+                    <span class="job__earlier-body" data-i18n="experience.earlier.body"></span>
+                </article>
             </section>
-            <!--//section-->
 
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Freelance</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Mincam desktop App</h3>
-                            <div class="time">2017 (2 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Freelance, La Plata</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">In this project I have worked with an senior Python developer and it was
-                            developed with
-                            <mark>Kivy</mark> framework and <mark>Python</mark>.
-                        </p>
-                        <p class="text-justify">We developed a system for take snapshot, record videos and add some text
-                            to this media files.</p>
-                        <p class="text-justify">This project was designed with the objective for using this app with the
-                            specific cameras of
-                            Mincam (German enterprise).</p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Corbett Rides</h3>
-                            <div class="time">2015 (3 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Freelance, San Martín de los Andes</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">In this project I have worked in company with an visual designer and it
-                            was developed with
-                            <mark>Symfony</mark> framework and <mark>MySql Server</mark>.
-                        </p>
-                        <p class="text-justify">We developed a system for managing the books of an enterprise of
-                            excursions on horseback in San
-                            Martín de los Andes, Argentina.</p>
-                        <p class="text-justify">In this web the administrators can manage the content of the page like
-                            the images of the slides,
-                            the information of excursions and testimonials from the visitors.</p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Oceania</h3>
-                            <div class="time">2014 (4 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Freelance, Macain</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">In this project I have worked with 2 visual designers for my own team,
-                            it was developed with
-                            <mark>Symfony</mark>, <mark>MySql Server</mark> database
-                            and served on <mark>AWS</mark>.
-                        </p>
-                        <p class="text-justify">A system to sell furniture designed by customers, interacting with
-                            different pieces, textures and paintings to obtain the final product
-                            and then send it to assemble. Buenos Aires, Argentina.</p>
-                        <p class="text-justify">There are two types of users, backend (Administrators) and frontend
-                            (Customers).</p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Oceania</h3>
-                            <div class="time">2014 (3 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Freelance, Punta del Este</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">In this project I have worked with 2 visual designers for my own team,
-                            it was developed with
-                            <mark>Symfony</mark> and <mark>MySql Server</mark>.
-                        </p>
-                        <p class="text-justify">We created a system for managing the travels an books of an enterprise
-                            of sea excursions in Punta
-                            del Este, Uruguay.</p>
-                        <p class="text-justify">There are three types of users, backend (Administrators, Agency) and
-                            frontend (Passengers).</p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Paperwork system</h3>
-                            <div class="time">2013 (5 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Catholic University of La Plata, La Plata</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">In this project I have worked with another 2 senior PHP developers for
-                            my own team with the
-                            <mark>Symfony</mark> framework on a <mark>Windows Server</mark> with <mark>Microsoft Sql
-                                Server</mark>.
-                        </p>
-                        <p class="text-justify">We developed a system for managing the students records in the
-                            university to follow the claims
-                            and improve the method of solving it.</p>
-                        <p class="text-justify">Users administration Follow the cases, attach files and messages, auto
-                            emails, move claim to
-                            another office for resolve it, email the users, reports of productivity for each office and
-                            control the time of work.</p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Soccer tournaments</h3>
-                            <div class="time">2011 (2 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Freelance, La Plata</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">I have worked with another 2 senior PHP developers for my own team with
-                            the framework
-                            <mark>Symfony</mark> on a <mark>Ubuntu Server</mark> with <mark>MySql Server</mark>.
-                        </p>
-                        <p>Version control:
-                            <mark>Git</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">library system</h3>
-                            <div class="time">2010 (7 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">Catholic University of La Plata, La Plata</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">Admin and Frontend library system for the Catholic University UCALP</p>
-                        <p class="text-justify">In this project I have developed the system with 2 senior PHP developers
-                            with the
-                            <mark>Symfony</mark> framework on a <mark>Windows Server</mark> with <mark>Microsoft Sql
-                                Server</mark>.
-                            We used Reverse engineering by taking an existing database for a old program and created a
-                            new
-                            web system for the library Functions: searches reserves, lends of books, Update new
-                            Documents
-                            and edit the existent DB Users management, and Students management, Reports etc..
-                        </p>
-                        <p>Version control:
-                            <mark>SVN</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">QuartoSol music band</h3>
-                            <div class="time">2010 (2 months)</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">La Plata</div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p class="text-justify">Admin and Frontend system for the QuartoSol music band.</p>
-                        <p class="text-justify">In this project I have developed an system with the
-                            <mark>Django</mark> framework and <mark>MySql Server</mark> for the database.
-                            The application allow to the members of the band can mannage the media content of the page
-                            like
-                            the music, covers, news, shows, etc. Using some librarys like <mark>Google Maps</mark>
-                            and others.
-                        </p>
-                        <p>Version control:
-                            <mark>SVN</mark>.
-                        </p>
-                    </div>
-                    <!--//details-->
-                </div>
-                <!--//item-->
-
+            <section class="section skills">
+                <h2 class="section__title" data-i18n="sections.skills">skills</h2>
+                <div data-i18n-skills></div>
             </section>
-            <!--//section-->
 
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
-
-                <div class="skillset">
-                    <div class="intro">
-                        <h5 class="">Blockchain</h5>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">PoW</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">PoS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">PoA</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">EIP's</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Geth</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Parity</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Ethereum</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Bitcoin</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">RSK</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Sidechains</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Oracles</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Solidity</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Truffle</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Zeppelin</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-                <div class="skillset">
-                    <div class="intro">
-                        <h4 class="">Lenguages &amp; Frameworks</h4>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">Python, Django &amp; Kivy</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Ruby &amp; Rails</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">JavaScript, NodeJs, ECMAScript &amp; Express</span>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">React &amp; React Native</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">HTML5 &amp; CSS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">PHP &amp; Symfony</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">ASP, C# &amp; .NET</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-                <div class="skillset">
-                    <div class="intro">
-                        <h4 class="">Query languages &amp; DB Managers</h4>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">MySQL</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">SQLite</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">PostgreSQL</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Microsoft Sql Server</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">InfluxDB</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">CouchDB</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">MongoDB</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">LavelDB</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-                <div class="skillset">
-                    <div class="intro">
-                        <h4 class="">Servers</h4>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">Apache</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Nginx</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">HAProxy</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">IIS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">SMTP</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">OpenVPN</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">AWS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Bind9</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-                <div class="skillset">
-                    <div class="intro">
-                        <h4 class="">Others</h4>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">Pentaho Data Integration</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">ELK (Elasticsearch, Logstash, Kibana)</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Fluentd</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Git</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Gitlab CI</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Travis CI</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Docker</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Rancher</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">OpenShift</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Ansible</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">SalesForce</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-                <div class="skillset">
-                    <div class="intro">
-                        <h4 class="">Security</h4>
-                    </div>
-                    <!--//intro-->
-                    <ul class="list-inline">
-                        <li>
-                            <h4><span class="label label-default">IDS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">IPS</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">WAF</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Firewall</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Sniffing</span></h4>
-                        </li>
-                        <li>
-                            <h4><span class="label label-default">Vulnerability Scanner</span></h4>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
-
+            <section class="section education">
+                <h2 class="section__title" data-i18n="sections.education">educación</h2>
+                <div data-i18n-education></div>
             </section>
-            <!--//skills-section-->
 
-        </div>
-        <!--//main-body-->
+            <section class="section languages">
+                <h2 class="section__title" data-i18n="sections.languages">idiomas</h2>
+                <div data-i18n-languages></div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <span data-i18n="footer.hint">Tip: Ctrl/Cmd + P para exportar a PDF</span>
+        </footer>
+
     </div>
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="assets/js/i18n.js"></script>
 </body>
 
 </html>

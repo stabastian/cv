@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "Sebastián Ponti — Senior Full Stack Developer",
+    "description": "CV of Sebastián Ponti, Senior Full Stack Developer focused on blockchain, infrastructure, and security."
+  },
+  "toggle": {
+    "label": "Language"
+  },
+  "header": {
+    "prompt": "~/cv $ whoami",
+    "name": "Sebastián Ponti",
+    "role": "Senior Full Stack Developer",
+    "location": "Patagonia, Argentina — Remote",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "sections": {
+    "summary": "profile",
+    "experience": "experience",
+    "skills": "skills",
+    "education": "education",
+    "languages": "languages"
+  },
+  "summary": {
+    "body": "Senior Full Stack Developer with 15+ years designing and leading distributed systems, blockchain platforms, and infrastructure automation. I've held CTO and Tech Lead roles in production DeFi and social-web3 projects. Cross-cutting focus on applied security, secure development, and proactive vulnerability detection."
+  },
+  "experience": {
+    "digitaltape": {
+      "company": "Digitaltape",
+      "role": "Senior Full Stack / DevOps",
+      "time": "2025 – present",
+      "location": "Remote",
+      "bullets": [
+        "Web application development across multiple software factory client projects.",
+        "Introduced infrastructure automation from scratch: provisioning with Ansible and CI/CD pipelines with GitHub Actions.",
+        "Smart log ingestion and AI-assisted analysis to detect suspicious activity and prevent incidents."
+      ]
+    },
+    "sherry": {
+      "company": "Sherry",
+      "role": "Tech Lead & Smart Contract Engineer",
+      "time": "2024 – 2025",
+      "location": "Remote — Mexican startup (Y Combinator + Avalanche-backed)",
+      "bullets": [
+        "Platform for social mini-apps on X (Twitter), the multichain EVM counterpart of Solana Blinks.",
+        "Led the engineering team; designed every smart contract in the platform.",
+        "Built the NestJS API and a large portion of the SDK used by third parties to publish mini-apps.",
+        "Multi-chain integration with Avalanche, Arbitrum, and Celo. Shipped an MVP as a browser extension, then migrated to native X Cards."
+      ]
+    },
+    "cryptologic": {
+      "company": "Cryptologic",
+      "role": "CTO / Architect / Blockchain Engineer",
+      "time": "2018 – 2023",
+      "location": "Rosario, Argentina",
+      "intro": "Consulting firm specialized in blockchain and cryptography, focused on financial instruments, smart contracts, and inclusion-oriented solutions.",
+      "projects": [
+        {
+          "name": "EMDX",
+          "time": "2021 – 2023",
+          "summary": "Perpetual-derivatives DEX on Avalanche C-Chain. CTO and architect from day one.",
+          "bullets": [
+            "End-to-end system design: Express API, WebSocket server for real-time data, Redis for shared memory and pub/sub channels, Vue frontend.",
+            "Forked and heavily modified Perpetual Protocol; deployed the project's ERC-20 token on Avalanche.",
+            "Built a dedicated Avalanche Subnet and migrated the DEX to it; bridged liquidity from Arbitrum via LayerZero.",
+            "Parallel deployment on RSK. Monitored Chainlink oracles and contracts through OpenZeppelin Defender.",
+            "Direct collaboration with the Avalanche Foundation."
+          ]
+        },
+        {
+          "name": "Sentinel Chain",
+          "time": "",
+          "summary": "B2B marketplace focused on financial services for the unbanked.",
+          "bullets": [
+            "Designed smart contracts (ERC-20/721), oracles, DApps, and cross-chain communication with Ethereum mainnet.",
+            "Built the blockchain with Parity + PoA; deployed with Docker and Rancher."
+          ]
+        },
+        {
+          "name": "Bitsign",
+          "time": "",
+          "summary": "Blockchain as a Service that abstracts interaction with heterogeneous networks.",
+          "bullets": [
+            "Migrated the blockchain infrastructure to Rancher, acting as DevOp."
+          ]
+        }
+      ]
+    },
+    "cespi": {
+      "company": "CeSPI (UNLP)",
+      "role": "Developer",
+      "time": "2014 – 2018",
+      "location": "La Plata, Argentina",
+      "bullets": [
+        "Developed and maintained applications for the National University of La Plata and third parties (Rails, Sinatra, Symfony, React).",
+        "Continuous-delivery pipelines with Gitlab-CI and Rancher; early blockchain explorations applied to image validation and vehicle traceability."
+      ]
+    },
+    "earlier": {
+      "label": "Earlier experience",
+      "time": "2010 – 2014",
+      "body": "Developer at Latinmanagers (La Plata) and multiple freelance projects in PHP/Symfony, Django, and .NET for clients across Argentina, Uruguay, and Ecuador."
+    }
+  },
+  "skills": {
+    "groups": [
+      {
+        "name": "Blockchain & Web3",
+        "items": ["Solidity", "Ethereum", "Avalanche (C-Chain + Subnets)", "RSK", "Smart Contracts", "DeFi", "ERC-20/721", "LayerZero", "Chainlink", "OpenZeppelin Defender", "Hardhat", "Truffle"]
+      },
+      {
+        "name": "Languages & Frameworks",
+        "items": ["TypeScript", "JavaScript", "Node.js", "NestJS", "Express", "Vue", "React", "Ruby on Rails", "Python"]
+      },
+      {
+        "name": "Infra & DevOps",
+        "items": ["Docker", "Ansible", "GitHub Actions", "AWS", "Nginx", "Rancher", "GitLab CI", "Linux"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MySQL", "Redis", "MongoDB"]
+      },
+      {
+        "name": "Security",
+        "items": ["Secure development", "Pentesting", "Log analysis", "Hardening", "CTFs (award-winning)"]
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "degree": "B.Sc. in Computer Systems",
+        "place": "UNLP — School of Informatics",
+        "time": "2007 – 2017",
+        "note": "Thesis completed, 4 subjects remaining."
+      },
+      {
+        "degree": "Technical high school",
+        "place": "",
+        "time": "2000 – 2005",
+        "note": ""
+      }
+    ]
+  },
+  "languages": {
+    "items": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "English", "level": "Professional, intermediate" }
+    ]
+  },
+  "footer": {
+    "hint": "Tip: Ctrl/Cmd + P to export as PDF"
+  }
+}
